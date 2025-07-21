@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country</title>
+    <script src="country.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="title">Where in the World?</h2>
+            <p class="DarkMode" onclick="changeMode()"> <i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+        </div>
+    </header>
+    <main>
+         <div class="backBtn">
+        <button onclick="goback()"><i class="fa-solid fa-arrow-left"></i>
+            <p>&nbsp;&nbsp;Back
+                <a href="#"></a>
+            </p>
+        </button>
+        <div class="countrie-box">
+                <img src="https://flagcdn.com/af.svg">
+            <div class="counties-details">
+                <h1>Afghanistan</h1>
+                <div class="mainPart">
+                    <div class="firstPart">
+                        <p><b>Native Name</b>: <span class="Native-Name"></span></p>
+                        <p><b>Population</b>: <span class="Population"></span></p>
+                        <p><b>Region</b>: <span class="Region"></span></p>
+                        <p><b>Sub Region</b>: <span class="Subregion"></span></p>
+                        <p><b>Capital</b>: <span class="Capital"></span></p>
+                    </div>
+                    <div class="SecondPart">
+                        <p><b>Top Level Domain</b>: <span class="toplevelDomain"></span></p>
+                        <p><b>Currencies</b>: <span class="Currencies"></span></p>
+                        <p><b>Language</b>: <span class="Language"></span></p>
+                    </div>
+                </div>
+               <div class="Border-countries">
+                 <b>Border Countrie</b>:&nbsp; 
+               </div>
+            </div>
+        </div>
+    </div>
+    </main>
+   
+
+</body>
+
+</html>
