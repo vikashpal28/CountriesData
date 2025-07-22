@@ -4,51 +4,55 @@ This dataset contains comprehensive information about 250 countries, designed fo
 
 📁 Contents
 Each country entry may include the following fields:
-name: Common name of the country (e.g., "France")
 
-official_name: Official name (e.g., "French Republic")
+1. name: Common name of the country (e.g., "France")
 
-iso_alpha_2: Two-letter country code (e.g., "FR")
+2. official_name: Official name (e.g., "French Republic")
 
-iso_alpha_3: Three-letter country code (e.g., "FRA")
+3. iso_alpha_2: Two-letter country code (e.g., "FR")
 
-numeric_code: UN numeric country code
+4. iso_alpha_3: Three-letter country code (e.g., "FRA")
 
-capital: Capital city
+5. numeric_code: UN numeric country code
 
-region: Global region (e.g., "Europe", "Asia")
+6. capital: Capital city
 
-subregion: Subregion within the continent
+7. region: Global region (e.g., "Europe", "Asia")
 
-population: Estimated number of inhabitants
+8. subregion: Subregion within the continent
 
-area: Land area in square kilometers
+9. population: Estimated number of inhabitants
 
-timezones: List of official time zones
+10. area: Land area in square kilometers
 
-languages: Official languages
+11. timezones: List of official time zones
 
-currencies: Currency name, code, and symbol
+12. languages: Official languages
 
-flag_url: Link to country flag image
+13. currencies: Currency name, code, and symbol
 
-latitude, longitude: Geographical coordinates
+14. flag_url: Link to country flag image
 
-borders: Array of bordering countries (by ISO code)
+15. latitude, longitude: Geographical coordinates
+
+16. borders: Array of bordering countries (by ISO code)
+    
 🛠 Use Cases
-Power web applications with country-specific data
 
-Create data visualizations and geographical maps
+1. Power web applications with country-specific data
 
-Enable location-based services
+2. Create data visualizations and geographical maps
 
-Support internationalization (i18n)
+3. Enable location-based services
+
+4. Support internationalization (i18n)
 
 ⚙️ How to Use
-Clone or download the repository
 
-Access the JSON or CSV file containing the country data
+1. Clone or download the repository
 
-Parse it using your favorite language (JavaScript, Python, etc.)
+2. Access the JSON or CSV file containing the country data
 
-Integrate it into your project
+3. Parse it using your favorite language (JavaScript, Python, etc.)
+
+4. Integrate it into your project
